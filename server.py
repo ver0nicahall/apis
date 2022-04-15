@@ -44,7 +44,7 @@ def find_afterparties():
     payload = {'apikey': API_KEY}
 
     # TODO: Make a request to the Event Search endpoint to search for events
-    #
+    # 
     # - Use form data from the user to populate any search parameters
     #
     # - Make sure to save the JSON data from the response to the `data`
@@ -53,6 +53,8 @@ def find_afterparties():
     #
     # - Replace the empty list in `events` with the list of events from your
     #   search results
+
+    
 
     data = {'Test': ['This is just some test data'],
             'page': {'totalElements': 1}}
